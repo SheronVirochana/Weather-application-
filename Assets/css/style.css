@@ -3,40 +3,48 @@
     src: url("/assets/fonts/Gutter_Rust_Italic.otf");
 }
 
+
 body{
-    background-color: #28282d;
+    /* background-color: #09099b; */
+     background: linear-gradient( #0359ae );
 }
 
 .main_header_div {
-    /* background-color: #212529; */
+     background: linear-gradient( #00073c,#0359ae,#00073c );
+    /* background-color: #1d2125; */
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin-right: 0px;
+
 }
 
 .header_left_side {
     display: flex;
     align-items: center;
     width: 40%;
-    margin-left: 30px;
+    margin-left: 5%;
+    
 }
 
 .header_left_side img {
     width: 20%;
     height: 20%;
-    margin-left: 40px;
+    margin-right: 50px;
+    
+   
 }
 
 .header_left_side label{
     font-size: 40px;
     font-family: Gutter_Rust_Italic;
     color: #dee2e6;
-    margin-left: 20px;
+    
 }
 
 .header_right_side {
     width: 50%;
-    height: 15%;
+    height: 25%;
     display: flex;
     justify-content: right;
     align-content: center;
@@ -75,7 +83,7 @@ body{
 .weather_details span {
     font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 50px;
 }
 
 #city_name,
@@ -124,10 +132,11 @@ body{
 
 .sun_rise_box,
 .sun_set_box {
-    background-color: #29282C;
+    /* background-color: #66598d; */
     border-radius: 0.2rem;
     justify-items: center;
-    width: 50%;
+    width: 60%;
+ 
 }
 
 .sun_rise_box span,
@@ -164,7 +173,7 @@ body{
 }
 
 .other_details {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
 }
 
 .other_details label {
